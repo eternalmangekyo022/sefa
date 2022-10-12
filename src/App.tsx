@@ -9,6 +9,7 @@ function App() {
         <>
             <div className='w-full h-full relative bg-[#e0e0e0]'>
                 <Header />
+                <Images />
             </div>
         </>
     );

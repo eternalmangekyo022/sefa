@@ -43,8 +43,9 @@ export default function Header() {
                 <motion.img
                     src={icon}
                     onClick={() => window.open(url)}
-                    initial={{ y: 0 }}
+                    initial={{ y: -100 }}
                     animate={{ y: 10 * top * 1.3 }}
+                    transition={{ delay: 0.1 * top }}
                     className='max-w-[3rem] cursor-pointer'
                 ></motion.img>
             </>)}
