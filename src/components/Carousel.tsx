@@ -30,7 +30,7 @@ export default function Carousel() {
                 exit={{ opacity: 0, left: wwidth }}
                 transition={{ duration: .5 }}
             >
-                <motion.img className='rounded-3xl' src={images[index]} alt="Zoli"/>
+                <motion.img className='rounded-3xl' src={images[index]} draggable={false} alt="Zoli"/>
             </motion.div>
         </AnimatePresence>
     </>;
